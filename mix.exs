@@ -21,8 +21,8 @@ defmodule Edeliver.Mixfile do
         ],
         links: %{"GitHub" => "https://github.com/boldpoker/edeliver"},
       ],
-      deps: deps,
-      docs: docs,
+      deps: deps(),
+      docs: docs(),
     ]
   end
 
